@@ -1,6 +1,8 @@
 public class BruttoNetto {
 
-    public static void main() {
+    public static void main(String[] args) {
+
+    } {
             int grade = 4;
             if (grade == 1) {
                 System.out.println("Note : Sehr gut");
@@ -14,9 +16,6 @@ public class BruttoNetto {
                 System.out.println("Note : Schlecht");
             }
     }
-    public static void printNameToGrade (int Grade) {
-        // Aufgabe => Namen für Note}
-
         }
-        printNameToGrade(1);
-    }
+
+
