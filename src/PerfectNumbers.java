@@ -1,8 +1,15 @@
 public class PerfectNumbers {
     public static void main(String[] args) {
-    isPerfect(28);
-    }
-    public static void isPerfect (long number){
+
+       for (long i = 0; i <= 100000000;i ++){
+           if ((isPerfect(i) == true)){
+               System.out.println(i + " is a perfect number");
+           }
+       }
+        }
+
+
+    public static boolean isPerfect (long number){
         long counter = 1;
         long sum = 0;
 
@@ -13,7 +20,7 @@ public class PerfectNumbers {
             counter ++;
         }
         if (sum == number){
-            System.out.println(number + " is perfect");
-        }
+            return true;
+        } return false;
     }
 }
